@@ -4,5 +4,33 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20201023044504_Initial.cs" />
+    <Compile Remove="Migrations\20201023044504_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20201023071154_DataSeed.cs" />
+    <Compile Remove="Migrations\20201023071154_DataSeed.Designer.cs" />
+    <Compile Remove="Migrations\20201023071417_SeedDaa.cs" />
+    <Compile Remove="Migrations\20201023071417_SeedDaa.Designer.cs" />
+    <Compile Remove="Migrations\20201023072116_SeedData.cs" />
+    <Compile Remove="Migrations\20201023072116_SeedData.Designer.cs" />
+    <Compile Remove="Migrations\20201023072737_SeedData.cs" />
+    <Compile Remove="Migrations\20201023072737_SeedData.Designer.cs" />
+    <Compile Remove="Migrations\20201023075120_SeedData.cs" />
+    <Compile Remove="Migrations\20201023075120_SeedData.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 
 </Project>

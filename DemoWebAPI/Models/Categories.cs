@@ -7,14 +7,11 @@ using System.Threading.Tasks;
 
 namespace DemoWebAPI.Models
 {
-    [Table("Products")]
-    public class Products
+    [Table("Categories")]
+    public class Categories
     {
-        
         public long Id { get; set; }
         public string Name { get; set; }
-        public float Price { get; set; }
-        public string Description { set; get; }
         public List<ProductInCategory> ProductInCategories { get; set; }
     }
 }
